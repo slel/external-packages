@@ -1,6 +1,6 @@
 {% assign packages = site.data.packages | sort:'name' %}
 {% for package in packages %}
-## [{{ package.name }}]({{ package.home | default:'#' }})
+## {{ package.name }}
 
 > {{ package.slogan }}
 
@@ -14,7 +14,7 @@
 {% if package.authors %}
 ###### Authors
 {% for author in package.authors %}
-- [{{ author.name }}]({{ author.home }})
+- [{{ author.name }}]({{ author.home | default:'#' }})
 {% endfor %}
 {% endif %}
 
