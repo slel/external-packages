@@ -11,14 +11,14 @@ Repository: <{{ package.repo }}>
 {% endif %}
 
 {% if package.authors %}
-#### Authors:
+#### Authors
 {% for author in package.authors %}
 - [{{ author.name }}]({{ author.home }})
 {% endfor %}
 {% endif %}
 
 {% if package.notes %}
-#### Notes:
+#### Notes
 {{ package.notes }}
 {% endif %}
 
