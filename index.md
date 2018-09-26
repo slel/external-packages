@@ -1,24 +1,25 @@
-{% for package in site.data.packages | sort:'name' %}
+{% assign packages = site.data.packages | sort:'name' %}
+{% for package in packages %}
 ## [{{ package.name }}]({{ package.home | default:'#' }})
 
 > {{ package.slogan }}
 
 {% if package.home %}
-Homepage: <{{ package.home }}>
+**Homepage**: <{{ package.home }}>
 {% endif %}
 {% if package.repo %}
-Repository: <{{ package.repo }}>
+**Repository**: <{{ package.repo }}>
 {% endif %}
 
 {% if package.authors %}
-#### Authors
+##### Authors
 {% for author in package.authors %}
 - [{{ author.name }}]({{ author.home }})
 {% endfor %}
 {% endif %}
 
 {% if package.notes %}
-#### Notes
+##### Notes
 {{ package.notes }}
 {% endif %}
 
