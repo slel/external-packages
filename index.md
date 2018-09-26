@@ -4,10 +4,10 @@
 > {{ package.slogan }}
 
 {% if package.home %}
-Homepage: [{{ package.home }}]
+Homepage: <{{ package.home }}>
 {% endif %}
 {% if package.repo %}
-Repository: [{{ package.repo }}]
+Repository: <{{ package.repo }}>
 {% endif %}
 
 {% if package.authors %}
