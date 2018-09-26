@@ -14,7 +14,11 @@
 {% if package.authors %}
 ###### Authors
 {% for author in package.authors %}
+{% if author.home %}
 - [{{ author.name }}]({{ author.home | default:'#' }})
+{% else %}
+- {{ author.name }}
+{% endif %}
 {% endfor %}
 {% endif %}
 
