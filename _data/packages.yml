@@ -259,7 +259,16 @@
   slogan: |
     A Sage toolbox for computations with Models of Curves over Local Fields.
   repo: https://github.com/MCLF/mclf
-  notes: See also https://github.com/swewers/MCLF_
+  authors:
+  - name: Stefan Wewers
+  - name: Julian Rüth
+  
+- name: Henselization
+  slogan: |
+    Henselizations in Sage
+  repo: https://github.com/MCLF/henselization
+  authors:
+  - name: Julian Rüth
 
 - name: oeis_gf
   repo: https://github.com/eluzhnica/oeis_gf
