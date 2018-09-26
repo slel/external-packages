@@ -1,0 +1,426 @@
+# -*- coding: utf-8 -*-
+
+- name: DiscreteZOO
+  slogan: |
+    Interface to the DiscreteZOO database of discrete objects
+  authors:
+  - name: Katja Berčič
+    home: http://katja.not.si
+  - name: Janoš Vidali
+
+- name: Hilbert series
+  slogan: |
+    Compute refined Hilbert series.
+    Convert refined Hilbert series into Young tableaux.
+  repo: https://github.com/vbraun/hilbert_series
+  authors:
+  - name: Volker Braun
+
+- name: multipolynomial_bases
+  slogan: |
+    Sage package implementing different bases of the algebra
+    of multivariate polynomials.
+  pypi: https://pypi.python.org/pypi/multipolynomial_bases/
+  repo: https://github.com/VivianePons/multipolynomial-bases
+  documentation: https://www.lri.fr/~pons/sage_docs/multipolynomial_bases/
+  presentation: https://www.lri.fr/~pons/tag/multivariate-polynomials.html
+  bibliography:
+  - title: Multivariate Polynomials in Sage
+    arxiv: https://arxiv.org/abs/1207.0398
+
+- name: efactory
+  slogan: |
+    SageMath library for constructing elliptic curves.
+  repo: https://github.com/scipr-lab/ecfactory
+
+- name: abelfunctions
+  slogan: |
+    Abel functions.
+  repo: https://github.com/abelfunctions/abelfunctions
+  authors:
+  - name: Chris Swierczewski
+    home: http://cswiercz.info/
+  discussions:
+  - sage-devel discussion, https://groups.google.com/d/msg/sage-devel/29ndCD8z94k/K6H2OK5TAgAJ
+
+- name: ss-isogeny-software
+  slogan: |
+    Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies.
+  keywords: isogeny, elliptic curve, cryptography, quantum
+  authors:
+  - name: Luca De Feo
+    home: http://defeo.lu
+  repo: https://github.com/defeo/ss-isogeny-software
+
+- name: SchottkyUniformizationSageComputations
+  slogan: "Schottky uniformization."
+  repo: https://github.com/jupsal/SchottkyUniformizationSageComputations
+  authors:
+  - name: Jeremy Upsal (U Washington)
+    home: https://github.com/jupsal
+  description: "Various ideas from Schottky uniformization are implemented in Sage. These now include the SK prime function and will later include the Riemann Theta function built from a RS via Schottky uniformization due to Darren Crowdy."
+
+- name: sage-flatsurf
+  slogan: "Flat surfaces."
+  repo: https://github.com/videlec/sage-flatsurf
+  authors:
+  - name: Vincent Delecroix
+    home: http://www.labri.fr/perso/vdelecro/
+  - name: Pat Hooper
+    home: http://wphooper.com/
+
+- name: surface_dynamics
+  slogan: "Flat surfaces."
+  home: http://www.labri.fr/perso/vdelecro/programming.html
+  authors:
+  - name: Vincent Delecroix
+    home: http://www.labri.fr/perso/vdelecro/
+
+- name: slabbe
+  slogan: "Sébastien Labbé's research code"
+  repo: https://github.com/seblabbe
+  authors:
+  - name: Sébastien Labbé
+    home: http://www.slabbe.org/
+  notes: |
+    Version 0.1 contains modules on digital geometry, combinatorics on words
+    and more.
+    Version 0.2 provides modules on multidimensional continued fraction
+    algorithms, matrix cocycles, languages and tikzpictures.
+
+- name: modabvar
+  slogan: Modular abelian varieties
+  repo: https://github.com/haochenuw/sage_modabvar
+  authors:
+  - name: William Stein
+    home: https://wstein.org/
+  - name: Hao Chen
+
+- name: Sage train track
+  repo: https://github.com/coulbois/sage-train-track
+
+- name: lecf
+  slogan: "Lyapunov exponents for multidimensional continued fractions."
+  repo: https://github.com/seblabbe/lecf
+  authors:
+  - name: Vincent Delecroix
+    home: http://www.labri.fr/perso/vdelecro/
+  - name: Sébastien Labbé
+    home: http://www.slabbe.org/
+  notes: |
+    See also this repo: https://github.com/videlec/lecf
+
+- name: toricbetti
+  slogan: Computing graded Betti tables of toric surfaces.
+  repo: https://github.com/jdemeyer/toricbetti
+
+- name: sage-zonotopal-algebra
+  slogan: |
+    SageMath library to compute zonotopal algebra spaces
+    as in [Holtz-Ron 2011] and related literature.
+  repo: https://github.com/bgillesp/sage-zonotopal-algebra
+
+- name: gfun
+  home: http://www.luschny.de/math/seq/gfun/gfun.html
+
+- name: cutgeneratingfunctionology
+  slogan: |
+    Sage code for computation and experimentation with
+    cut-generating functions, in particular the Gomory-Johnson
+    infinite group problem.
+  authors:
+  - name: Matthias Köppe
+  - name: Yuan Zhou
+  - name: Chun Yu Hong
+  - name: Jiawei Wang
+  repo: https://github.com/mkoeppe/cutgeneratingfunctionology
+
+- name: subgroup explorer
+  home: https://sheaves.github.io/Subgroup-Explorer/
+  notes: |
+    https://github.com/sheaves
+    https://people.maths.bris.ac.uk/~matyd/GroupNames/index.html
+    https://people.maths.bris.ac.uk/~matyd/
+
+- name: sage-sample
+  slogan: "SageMath external package template."
+  repo: https://github.com/sagemath/sage_sample
+  authors:
+  - name: Nicolas M. Thiéry
+    home: http://nicolas.thiery.name/
+
+- name: sage-package
+  slogan: |
+    Utilities for authoring packages for SageMath.
+  repo: https://github.com/sagemath/sage-package
+  home: http://sage-package.readthedocs.io
+
+- name: mdsage
+  authors:
+  - name: Maarten Derickx
+    home: http://www.maartenderickx.nl/
+  slogan: |
+    A repository for all the Sage functions written by Maarten Derickx.
+  repo: https://github.com/koffie/mdsage
+  home: https://koffie.github.io/mdsage/doc/html/
+  notes: |
+    See also <a href="https://github.com/koffie/mdmagma">mdmagma</a>,
+    Magma code for computing with modular curves, by Maarten Derickx
+    and Andrew V. Sutherland, used in the articles 
+    <i>Gonality of the modular curve X1(N)</i>
+    [<a href="https://arxiv.org/abs/1307.5719">arxiv:1307.5719</a>] and
+    <i>Torsion subgroups of elliptic curves over quintic and sextic number fields</i>
+    [<a href="http://arxiv.org/abs/1608.07549">arxiv:1608.07549</a>]
+
+- name: Boolean-Cayley-graphs
+  slogan: |
+    Investigations of Boolean functions, their Cayley graphs,
+    and associated structures.
+  repo: https://github.com/penguian/Boolean-Cayley-graphs
+
+- name: sagedays
+  authors:
+  - name: David Roe
+  repo: https://github.com/roed314/sagedays
+
+- name: Purple Sage
+  home: http://purple.sagemath.org/
+
+- name: k_combinat_for_sage
+  slogan: |
+    k-Schur combinatorics for SageMath:
+    k-Schur and other k-math-objects for combinatorics.
+  repo: https://github.com/MareoRaft/k_combinat_for_sage
+  description: |
+    This code is meant to be used with SageMath,
+    and will eventually be migrated into SageMath itself.
+    The functions in the code come from research by
+    Jennifer Morse and her colleagues. You will see
+    in the documentation references to various research papers,
+    which are the relevant topics.
+  documentation: https://mareoraft.github.io/k_combinat_for_sage/
+  installation instructions: |
+    sage --pip install --upgrade k_combinat_for_sage
+
+- name: kiwisolver
+  slogan: |
+    An efficient C++ implementation of the Cassowary
+    constraint solving algorithm, with Python bindings.
+  authors:
+  - name: the Nucleic development team
+    home: http://github.com/nucleic
+  repo: https://github.com/nucleic/kiwi
+  pypi: https://pypi.org/project/kiwisolver
+
+- name: CubicBraidGroup
+  authors:
+  - name: Sebastian Oehms
+  home: https://cocalc.com/share/a3c9835337b41b0c1c7808ac5d793f5dbbef7064/CubicBraidGroup/?viewer=share
+
+- name: Recip
+  slogan: "REpository of Complex multIPlication SageMath code."
+  repo: https://bitbucket.org/mstreng/recip
+  home: https://mstreng.github.io/recip
+  documentation: https://mstreng.github.io/recip/doc/html
+  authors:
+  - name: Marco Streng
+    home: https://bitbucket.org/mstreng/
+  notes: |
+    This started out as code meant for computing with Shimura's
+    RECIProcity law, but grew into a collection of much of the
+    SageMath code written by me for my research.
+
+- name: reduce
+  repo: https://bitbucket.org/mstreng/reduce
+  home: https://mstreng.github.io/reduce
+  authors:
+  - name: Marco Streng
+    home: https://bitbucket.org/mstreng/
+
+- name: Network Symmetries and Synchronization
+  slogan: "Sage scripts to analyse network symmetries."
+  author: amhagerstrom
+  repo: https://sourceforge.net/p/networksym/code/ci/master/tree/
+
+- name: skewTableaux
+  slogan: "Visualize transformations involved in 'jeu de taquin', a creation of Marcel-Paul Schützenberger."
+  authors:
+  - name: "Jacques Bétréma"
+  bibliography:
+  - article: Promotion and Evacuation
+    authors: Richard P. Stanley
+    date: 2009
+    url: http://www-math.mit.edu/~rstan/papers/evac.pdf
+  notes: |
+    https://docs.google.com/file/d/0B1ED9dRpW1yYajQ2dmo0aFU1U1U/edit
+    http://betrema.blogspot.com/
+
+- name: MCLF
+  slogan: |
+    A Sage toolbox for computations with Models of Curves over Local Fields.
+  repo: https://github.com/MCLF/mclf
+  notes: See also https://github.com/swewers/MCLF_
+
+- name: oeis_gf
+  repo: https://github.com/eluzhnica/oeis_gf
+
+- name: sbox
+  repo: https://github.com/okazymyrov/sbox
+  notes: |
+    A substitution box or S-box is one of the basic components
+    of symmetric key cryptography.
+
+- name: tautrel
+  slogan: "Tautological ring of stable curves."
+  repo: https://github.com/apixton/tautrel
+  notes: "Most of this code is superseded by admclasses."
+
+- name: admcycles
+  home: https://people.math.ethz.ch/~schmittj/admcycles.html
+  slogan: |
+    A Sage program for calculations in the tautological ring of
+    $\\bar {\\cal M}_{g, n}$ and computation of cycles of
+    admissible covers.
+  authors:
+  - name: Johannes Schmitt
+    home: https://people.math.ethz.ch/~schmittj
+
+- name: 3d Cayley graphs
+  repo: https://github.com/kjcollins/3d_cayley_graphs
+  home: http://reflections.swarthmore.edu/
+
+- name: maclane
+  repo: https://github.com/MCLF/mac_lane
+  notes: This has been merged into Sage.
+  Sage Trac tickets:
+  - ticket: 21869
+    url: https://trac.sagemath.org/ticket/21869
+
+- name: minimum_rank
+  repo: https://github.com/jasongrout/minimum_rank
+
+- name: noncongruence
+  repo: https://github.com/fredstro/noncongruence
+
+- name: conrey-dirichlet-characters
+  repo: https://github.com/jwbober/conrey-dirichlet-characters
+
+- name: cbraid
+  repo: https://github.com/jeanluct/cbraid
+
+- name: libbraiding
+  repo: https://github.com/miguelmarco/libbraiding
+  Sage Trac tickets:
+  - ticket: 20815
+    summary: libbraiding as an optional package
+    url: https://trac.sagemath.org/ticket/20815
+
+- name: torbrowser-overlay
+  repo: https://github.com/MeisterP/torbrowser-overlay
+
+- name: sage-wiki
+  repo: https://github.com/miguelmarco/sage-wiki
+
+- name: TIDES
+  repo:
+  - https://github.com/miguelmarco/TIDES
+  - https://github.com/miguelmarco/sagetides
+
+- name: root-unitary
+  repo: https://github.com/kedlaya/root-unitary
+  reamde: https://github.com/kedlaya/root-unitary/blob/master/README
+  discussions:
+  - sage-devel, https://groups.google.com/d/topic/sage-nt/FMeWoUIPaYQ/discussion
+  Sage Trac tickets:
+  - ticket: 23946
+    url: https://trac.sagemath.org/ticket/23946
+
+- name: bsscl
+  repo: https://github.com/clay-matt/bsscl
+
+- name: smalljac
+  home: http://math.mit.edu/~drew/
+
+- name: rubiks
+  Sage Trac tickets:
+  - ticket: 21493
+    url: https://trac.sagemath.org/ticket/21493
+
+- name: codinglib
+  repo: https://bitbucket.org/jsrn/codinglib
+
+- name: Ejemplo Criptosistema McEliece en SAGE
+  home: http://juaninf.blogspot.fr/2013/04/function-make-div-with-id-mycell-sage.html
+
+- name: sage2lmfdb
+  authors:
+  - name: David Lowry-Duda
+    home: http://davidlowryduda.com
+  repo: https://github.com/davidlowryduda/sage2lmfdb
+
+- name: Dynamics
+  author: Lee Worden
+  discussions:
+  - sage-devel, https://groups.google.com/d/msg/sage-devel/6gO4bzTZfuU/Ld_SDRRSCAAJ
+  repo: https://github.com/worden-lee/SageDynamics
+
+- name: twostage
+  authors:
+  - name: Xavier Guitart
+  - name: Marc Masdeu
+
+- name: darmonpoints
+  authors:
+  - name: Xavier Guitart
+  - name: Marc Masdeu
+
+- name: chow
+  home: http://www.math.sciences.univ-nantes.fr/~sorger/chow_en.html
+
+- name: psage
+  repo: https://github.com/fredstro/psage
+
+- name: Regina
+  Sage Trac tickets:
+    - ticket: 17077
+      url: https://trac.sagemath.org/ticket/17077
+
+- name: coxeter
+  repo: https://github.com/tscrim/coxeter
+
+- name: lie
+
+- name: flipper
+  authors:
+  - name: Mark Bell
+  slogan: |
+    For manipulating curves and measured laminations on surfaces
+    and producing mapping tori.
+  pypi: https://pypi.python.org/pypi/flipper/
+  repo: https://bitbucket.org/Mark_Bell/flipper
+
+- name: abelfunctions
+  keywords: Abelian functions, Riemann surfaces, algebraic curves.
+  repo: https://github.com/abelfunctions/abelfunctions
+  slogan: "A library for computing with Abelian functions, Riemann surfaces, and algebraic curves."
+  documentation: https://github.com/abelfunctions/abelfunctions/blob/master/doc/README.md
+
+- name: sage-train-track
+  authors:
+  - name: Thierry Coulbois
+    home: https://www.i2m.univ-amu.fr/~coulbois/
+  repo: https://github.com/coulbois/sage-train-track
+  Sage Trac tickets:
+    - ticket: 20154
+      url: http://trac.sagemath.org/ticket/20154
+  home: https://www.i2m.univ-amu.fr/~coulbois/train-track/
+
+- name: Boolean-Cayley-graphs
+  slogan: |
+    Investigations of Boolean functions, their Cayley graphs,
+    and associated structures.
+  authors:
+  - name: Paul Leopardi
+    home: https://sites.google.com/site/paulleopardi/
+  repo: https://github.com/penguian/Boolean-Cayley-graphs
+  documentation: https://boolean-cayley-graphs.sourceforge.io/
