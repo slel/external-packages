@@ -13,7 +13,7 @@
 
 {% if package.authors %}
 ###### Authors
-{% for author in package.authors %}
+{% for author in package.authors | sort:'name' %}
 {% if author.home %}
 - [{{ author.name }}]({{ author.home | default:'#' }})
 {% else %}
