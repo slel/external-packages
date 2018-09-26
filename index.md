@@ -1,5 +1,5 @@
-{% for package in site.data.packages | sort:"name" %}
-## [{{ package.name }}]({{ package.home }})
+{% for package in site.data.packages | sort:'name' %}
+## [{{ package.name }}]({{ package.home | default:'#' }})
 
 > {{ package.slogan }}
 
@@ -7,7 +7,7 @@
 Homepage: [{{ package.home }}]
 {% endif %}
 {% if package.repo %}
-Repository: {{ package.repo }}
+Repository: [{{ package.repo }}]
 {% endif %}
 
 {% if package.authors %}
