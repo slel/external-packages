@@ -1,3 +1,7 @@
+---
+title: External Packages for SageMath
+---
+
 {% assign packages = site.data.packages | natural_sort:'name' %}
 {% for package in packages %}
 ## [{{ package.name }}]({{ package.home | default:'#' }})
