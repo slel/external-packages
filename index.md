@@ -1,4 +1,4 @@
-{% assign packages = site.data.packages | sort:'name' %}
+{% assign packages = site.data.packages | natural_sort:'name' %}
 {% for package in packages %}
 ## [{{ package.name }}]({{ package.home | default:'#' }})
 
